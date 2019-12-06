@@ -13,15 +13,7 @@
     </head>
     <body>
 
-        {{ block "header" . }}{{ partial "site/header.html" . }}{{ end }}
-
-        <main class="site-main bg-gray-900" role="main">
-
-            {{ block "main" . }}{{ end }}
-
-		</main>
-
-        {{ block "footer" . }}{{ partial "site/footer.html" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
 
         {{ block "site/scripts" . }}{{ partial "site/scripts.html" . }}{{ end }}
 
