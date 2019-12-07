@@ -1,5 +1,5 @@
 # DEVELOPMENT ADDRESS
-baseURL = "https://cdesg-development.netlify.com/"
+baseURL = "/"
 
 # PRODUCTION ADDRESS
 #baseURL = "TO DO"
