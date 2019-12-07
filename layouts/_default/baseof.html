@@ -6,6 +6,8 @@
 
         {{ block "site/favicon" . }}{{ partial "site/favicon.html" . }}{{ end }}
 
+        {{ block "site/opengraph" . }}{{ partial "site/opengraph.html" . }}{{ end }}
+
         <title>{{ block "title" . }}
             {{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}
         {{ end }}</title>
