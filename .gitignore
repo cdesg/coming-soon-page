@@ -4,6 +4,9 @@
 # Ignore node modules 
 node_modules
 
+# Hugo generated resources cache folder 
+resources
+
 ## OS Files
 # Windows
 Thumbs.db
