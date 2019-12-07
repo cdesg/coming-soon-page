@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 @tailwind base;
 
 @tailwind components;
@@ -8,4 +9,6 @@
 
 /* Stop adding extra stuff here */ 
 
+
+/* purgecss end ignore */
 @tailwind utilities;
