@@ -3,13 +3,13 @@ const purgecss = require('@fullhuman/postcss-purgecss')
 module.exports = {
 
 	plugins: [
-	  // ...
-	  require('tailwindcss'),
+		// ...
+		require('tailwindcss'),
 
-	  purgecss({
+		purgecss({
 		content: ['./**/*.html']
-	  })
-	  // ...
+		})
+		// ...
 	]
 
 }

@@ -2,10 +2,8 @@
 module.exports = {
 	theme: {
 		extend: {
-			colors: { 
-				'brand-orange': '#f9f9f9', 
-				'brand-green': '#246428',
-				'brand-blue': '#441498'
+			colors: {
+				'brand-orange': '#BE1E2D',  
 			} 
 		}
 	},
