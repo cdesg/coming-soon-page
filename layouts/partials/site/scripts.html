@@ -1,11 +1,4 @@
 
-
-<!-- Modernizr -->
-<!--<script src='{{ "js/modernizr-3.6.0.min.js" | relURL }}'></script>-->
-
-<!-- jQuery -->
-<script src='{{ "js/jquery-3.3.1.min.js" | relURL }}'></script>
-
 <!-- CDESG Custom Scripts -->
 {{ $s := resources.Get "js/app.js" }}
 <script src="{{ $s.Permalink }}"></script>
